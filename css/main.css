@@ -433,3 +433,14 @@ main {
     margin-left: 50%;
     margin-top: 20%;
 }
+.logo-pequeño{
+    display: none;
+}
+/* Cuando la pantalla es menor a 900px  (tablets y teléfonos inteligentes)*/
+@media only screen and (max-width : 900px) {
+    .logo-grande{
+        display: none;
+    }
+    .logo-pequeño{
+        display: block;
+    }
